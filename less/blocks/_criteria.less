@@ -1,0 +1,140 @@
+.criteria {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: #F6F8FC;
+
+    @media (max-width: 710px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    @media (max-width: 500px) {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+.criteria__title {
+    margin-bottom: 77px;
+
+    @media (max-width: 1055px) {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    @media (max-width: 815px) {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    @media (max-width: 645px) {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 470px) {
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.critetia__items-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.criteria__item {
+    margin-bottom: 70px;
+    width: 48%;
+
+    @media (max-width: 1030px) {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 500px) {
+        margin-bottom: 25px;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+        width: 100%;
+    }
+}
+
+.criteria__item-top {
+    margin-bottom: 46px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 1030px) {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 500px) {
+        margin-bottom: 15px;
+    }
+
+    img {
+        margin-right: 30px;
+
+        @media (max-width: 500px) {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        color: #333333;  
+
+        @media (max-width: 645px) {
+            font-size: 25px;
+            line-height: 38px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        @media (max-width: 450px) {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        
+        br {
+            display: none;
+
+            @media (max-width: 1030px) {
+                display: block;
+            }
+        }
+
+        span {
+            color: #B6CC43;            
+        }
+    }
+}
+
+.criteria__item-text {
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,356 @@
+.method {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    overflow-x: hidden;
+
+    @media (max-width: 1070px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    @media (max-width: 645px) {
+        padding-top: 53px;
+        padding-bottom: 70px;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.method__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.method__title {
+    position: relative;
+    margin-bottom: 82px;
+    margin-left: 30px;
+
+    @media (max-width: 1055px) {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    @media (max-width: 815px) {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    @media (max-width: 645px) {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 470px) {
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &::before {
+        content:  '';
+        position: absolute;
+        left: -30px;
+        bottom: 0;
+        width: 102%;
+        height: 38px;
+        background: #F9FFDC;
+        z-index: -1;
+
+        @media (max-width: 1400px) {
+            width: 150%;
+            height: 70%;
+        }
+    }
+}
+.method__items-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 1400px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (max-width: 790px) {
+        display: flex;
+    }
+}
+
+.method__items-wrap.owl-carousel {
+    display: flex;
+}
+
+.method__items-wrap.owl-carousel .owl-nav button.owl-next {
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/arrow-next.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    right: 15px;
+    bottom: 0;
+    width: 40px;
+    height: 22px;
+
+    @media (max-width: 1400px) {
+        top: auto;
+        bottom: -20px;
+    }
+ 
+    @media (max-width: 500px) {
+        background-image: url('../img/arrow-next-mobile.svg');      
+        background-size: auto; 
+    }
+
+    span {
+        display: none;
+    }
+}
+
+.method__items-wrap.owl-carousel .owl-nav button.owl-prev {
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/arrow-prev.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 15px;
+    bottom: 0;
+    width: 40px;
+    height: 22px;
+
+    @media (max-width: 1400px) {
+        top: auto;
+        bottom: -20px;
+    }
+
+    @media (max-width: 500px) {
+        background-image: url('../img/arrow-prev-mobile.svg'); 
+        background-size: auto;      
+    }
+
+    span {
+        display: none;
+    }
+}
+
+.method__items-wrap.owl-theme .owl-nav {
+    margin-top: 30px;
+}
+
+.method__item { 
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    background: #F6F8FC;
+    text-align: left;
+    border-radius: 10px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+
+    @media (max-width: 790px) {
+        height: 343px;
+    }
+
+    @media (max-width: 645px) {
+        height: 317px;
+    }
+
+    @media (max-width: 500px) {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 72px;
+        padding-bottom: 0;
+        height: 182px;
+    }
+}
+
+.method__item-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+
+    @media (max-width: 645px) {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+}
+
+.method__item-text {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    z-index: 2;
+
+    @media (max-width: 645px) {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 12px;
+        line-height: 21px;
+    }
+}
+
+.method__item--1st {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-1st.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        @media (max-width: 500px) {
+            content: '1';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}
+
+.method__item--2nd {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-2nd.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        
+        @media (max-width: 500px) {
+            content: '2';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}
+
+.method__item--3th {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-3th.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        
+        @media (max-width: 500px) {
+            content: '3';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}
+
+.method__item--4th {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-4th.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        
+        @media (max-width: 500px) {
+            content: '4';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}
+
+.method__item--5th {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-5th.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        
+        @media (max-width: 500px) {
+            content: '5';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}
+
+.method__item--6th {
+    position: relative;
+
+    &::before {
+        content: url('../img/method/method-6th.png');
+        position: absolute;
+        bottom: -3px;
+        right: 20px;
+        z-index: 1;
+
+        
+        @media (max-width: 500px) {
+            content: '6';
+            font-weight: 800;
+            font-size: 139.882px;
+            line-height: 100%;
+            color: #E8F0FF;
+            bottom: -15px;
+        }
+    }
+}

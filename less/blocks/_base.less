@@ -1,0 +1,55 @@
+// font-family: 'Open Sans', sans-serif;
+.none {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1370px;
+    margin-left: auto;  
+    margin-right: auto;
+
+    @media (max-width:  1400px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0; 
+    margin: 0;
+}
+
+.title {
+    font-family: 'DaxlinePro', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 60px;
+    line-height: 76px;
+    color: #333333;    
+}
