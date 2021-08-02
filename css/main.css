@@ -891,11 +891,21 @@ p {
 .coopeartion__col-row::before {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   width: 100%;
   height: 1px;
   background-image: url('../img/cooperation/border.png');
   background-repeat: no-repeat;
+}
+@media (max-width: 650px) {
+  .coopeartion__col-row::before {
+    bottom: -5px;
+  }
+}
+@media (max-width: 496px) {
+  .coopeartion__col-row::before {
+    bottom: -6px;
+  }
 }
 .coopeartion__col-row:last-child {
   margin-bottom: 0;
@@ -907,13 +917,13 @@ p {
   line-height: 44px;
   color: #333333;
 }
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .cooperation__row-service {
     font-size: 18px;
     line-height: 28px;
   }
 }
-@media (max-width: 465px) {
+@media (max-width: 496px) {
   .cooperation__row-service {
     font-size: 12px;
     line-height: 20px;
@@ -926,13 +936,13 @@ p {
   line-height: 44px;
   color: #333333;
 }
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .coortarion__row-cost {
     font-size: 18px;
     line-height: 28px;
   }
 }
-@media (max-width: 465px) {
+@media (max-width: 496px) {
   .coortarion__row-cost {
     font-size: 12px;
     line-height: 20px;
