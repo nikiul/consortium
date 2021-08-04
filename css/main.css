@@ -12,6 +12,20 @@
   font-weight: 800;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoCondensed-Regular.eot');
+  src: local('☺'), url('../fonts/RobotoCondensed-Regular.woff') format('woff'), url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'), url('../fonts/RobotoCondensed-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .none {
   display: none;
 }
@@ -260,6 +274,9 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .banner__left {
   width: 50%;
@@ -369,11 +386,13 @@ p {
 .banner__right {
   position: absolute;
   right: 0;
+  top: 0;
   z-index: -1;
+  width: 50%;
 }
 @media (max-width: 1250px) {
   .banner__right {
-    width: 55%;
+    width: 50%;
   }
 }
 @media (max-width: 1024px) {
