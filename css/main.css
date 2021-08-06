@@ -1564,7 +1564,7 @@ p {
     margin-bottom: 4vw;
   }
 }
-.item-desc__made p {
+.item-desc__doing {
   margin-bottom: 1.1em;
   font-weight: bold;
   font-size: 24px;
@@ -1572,7 +1572,7 @@ p {
   color: #333333;
 }
 @media (max-width: 1440px) {
-  .item-desc__made p {
+  .item-desc__doing {
     font-size: 1.7vw;
   }
 }
@@ -2416,7 +2416,7 @@ p {
     margin-bottom: 4.6vw;
   }
 }
-.weDo__carousel-item-list p {
+.weDo__carousel-item-customization {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 24px;
@@ -2424,7 +2424,7 @@ p {
   color: #333333;
 }
 @media (max-width: 1500px) {
-  .weDo__carousel-item-list p {
+  .weDo__carousel-item-customization {
     font-size: 1.6vw;
     line-height: 100%;
     margin-bottom: 2.2vw;
