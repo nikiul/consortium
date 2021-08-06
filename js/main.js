@@ -1,5 +1,5 @@
-a = document.getElementsByTagName('html');
-a[0].style.transform = "scale(0.7)";
+// a = document.getElementsByTagName('html');
+// a[0].style.transform = "scale(0.7)";
 
 // Модалка
 var ModalOpen = document.querySelector(".banner__btn");
