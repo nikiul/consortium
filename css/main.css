@@ -468,6 +468,14 @@ p {
     line-height: 24px;
   }
 }
+@media (max-width: 390px) {
+  .cooperation__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+  }
+}
 .cooperation__title::before {
   content: '';
   position: absolute;
@@ -481,12 +489,12 @@ p {
 @media (max-width: 800px) {
   .cooperation__title::before {
     width: 150%;
-    height: 30px;
+    height: 70%;
   }
 }
 @media (max-width: 487px) {
   .cooperation__title::before {
-    height: 16px;
+    height: 70%;
   }
 }
 .cooperation__item-wrap {
@@ -801,6 +809,12 @@ p {
     height: 248px;
   }
 }
+@media (max-width: 375px) {
+  .cooperation__col-left::before {
+    background-size: cover;
+    width: 261px;
+  }
+}
 .cooperation__col-right::before {
   content: '';
   position: absolute;
@@ -1003,6 +1017,16 @@ p {
     bottom: -6px;
   }
 }
+@media (max-width: 400px) {
+  .coopeartion__col-row::before {
+    bottom: 6px;
+  }
+}
+@media (max-width: 400px) {
+  .coopeartion__col-row::before {
+    bottom: 3px;
+  }
+}
 .coopeartion__col-row:last-child {
   margin-bottom: 0;
 }
@@ -1036,6 +1060,17 @@ p {
     line-height: 20px;
   }
 }
+@media (max-width: 400px) {
+  .cooperation__row-service {
+    bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  .cooperation__row-service {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .coortarion__row-cost {
   position: relative;
   bottom: -12px;
@@ -1064,6 +1099,17 @@ p {
   .coortarion__row-cost {
     font-size: 12px;
     line-height: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .coortarion__row-cost {
+    bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  .coortarion__row-cost {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 .cooperation__col-desc {
@@ -1107,6 +1153,12 @@ p {
     line-height: 20px;
   }
 }
+@media (max-width: 375px) {
+  .cooperation__col-total {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .cooperation__col-total span {
   font-weight: bold;
 }
@@ -1137,6 +1189,12 @@ p {
   .cooperation__col-desc-text {
     font-size: 12px;
     line-height: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .cooperation__col-desc-text {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 .results {
@@ -1200,6 +1258,14 @@ p {
   .results__title {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .results__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
   }
 }
 .results__title::before {
@@ -1645,6 +1711,11 @@ p {
     line-height: 24px;
   }
 }
+@media (max-width: 390px) {
+  .criteria__title {
+    font-size: 16px;
+  }
+}
 .critetia__items-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1813,6 +1884,14 @@ p {
   .with__title {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .with__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
   }
 }
 .with__title::before {
@@ -1992,6 +2071,14 @@ p {
     line-height: 24px;
   }
 }
+@media (max-width: 390px) {
+  .flaws__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+  }
+}
 .flaws__item-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2010,6 +2097,11 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+@media (max-width: 500px) {
+  .flaws__item {
+    margin-bottom: 30px;
+  }
 }
 .flaws__item:last-child {
   margin-bottom: 0;
@@ -2138,6 +2230,14 @@ p {
   .weDo__title {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .weDo__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
   }
 }
 .weDo__title::before {
@@ -2427,6 +2527,14 @@ p {
     margin-bottom: 25px;
     font-size: 18px;
     line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .faces__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
   }
 }
 .faces__top {
@@ -2787,6 +2895,14 @@ p {
     line-height: 24px;
   }
 }
+@media (max-width: 390px) {
+  .method__title {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+  }
+}
 .method__title::before {
   content: '';
   position: absolute;
@@ -3142,6 +3258,11 @@ p {
     line-height: 24px;
   }
 }
+@media (max-width: 390px) {
+  .questions__title {
+    font-size: 16px;
+  }
+}
 .questions__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3385,6 +3506,11 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media (max-width: 390px) {
+  .footer__left {
+    margin-right: 5px;
+  }
+}
 .footer__title {
   margin-bottom: 40px;
   font-family: Arial;
@@ -3408,6 +3534,12 @@ p {
     line-height: 9px;
   }
 }
+@media (max-width: 385px) {
+  .footer__title {
+    font-size: 9px;
+    line-height: 13px;
+  }
+}
 .footer__desc {
   margin-bottom: 1em;
   font-size: 24px;
@@ -3424,6 +3556,12 @@ p {
   .footer__desc {
     font-size: 10px;
     line-height: 14px;
+  }
+}
+@media (max-width: 385px) {
+  .footer__desc {
+    font-size: 9px;
+    line-height: 13px;
   }
 }
 @media (max-width: 479px) {
@@ -3472,6 +3610,11 @@ p {
     margin-right: 11.5vw;
   }
 }
+@media (max-width: 385px) {
+  .footer__contacts-soc {
+    margin-right: 25px;
+  }
+}
 .footer__contacts-soc a {
   margin-right: 30px;
 }
@@ -3511,6 +3654,12 @@ p {
     height: 25px;
   }
 }
+@media (max-width: 385px) {
+  .footer__contacts-soc a img {
+    width: 20px;
+    height: 20px;
+  }
+}
 .footer__tel {
   font-weight: 600;
   font-size: 24px;
@@ -3530,6 +3679,12 @@ p {
     line-height: 14px;
   }
 }
+@media (max-width: 385px) {
+  .footer__tel {
+    font-size: 9px;
+    line-height: 13px;
+  }
+}
 .footer__copyright {
   font-size: 24px;
   line-height: 40px;
@@ -3545,6 +3700,12 @@ p {
   .footer__copyright {
     font-size: 10px;
     line-height: 14px;
+  }
+}
+@media (max-width: 385px) {
+  .footer__copyright {
+    font-size: 8px;
+    line-height: 13px;
   }
 }
 @media (max-width: 1400px) {
