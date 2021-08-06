@@ -1,5 +1,5 @@
-a = document.getElementsByTagName('html');
-a[0].style.transform = "scale(0.8)";
+// a = document.getElementsByTagName('html');
+// a[0].style.transform = "scale(0.8)";
 
 // Модалка
 var ModalOpen = document.querySelector(".banner__btn");
@@ -52,7 +52,7 @@ $(document).ready(function(){
     var methodCarousel = $("#method-carousel")
 
     function heroCarouselInit() {
-        if($('body').children(heroCarousel) && $(window).width() < 1290){
+        if($('body').children(heroCarousel) && $(window).width() < 1370){
             heroCarousel.owlCarousel({
                 loop:true,
                 margin: 20,
@@ -65,7 +65,10 @@ $(document).ready(function(){
                     0:{
                         items:1
                     },
-                    856: {
+                    // 856: {
+                    //     items: 2  
+                    // }
+                    1080: {
                         items: 2  
                     }
                 }
