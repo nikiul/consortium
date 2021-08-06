@@ -1,3 +1,23 @@
+a = document.getElementsByTagName('html');
+a[0].style.transform = "scale(0.8)";
+
+// Модалка
+var ModalOpen = document.querySelector(".banner__btn");
+var ModalClose = document.querySelector(".modal__close-btn");
+var Modal = document.querySelector(".modal-wrap");
+
+if(ModalOpen){
+    ModalOpen.addEventListener("click", function(){
+        Modal.classList.add("modal-wrap--active");
+    });
+}
+
+if(ModalClose){
+    ModalClose.addEventListener("click", function(){
+        Modal.classList.remove("modal-wrap--active");
+    });
+}
+
 $('#results__carousel').owlCarousel({
     loop:true,
     margin: 40,
